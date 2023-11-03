@@ -1,0 +1,6 @@
+[submodule "vendor/Walnut"]
+	path = vendor/Walnut
+	url = https://github.com/StudioCherno/Walnut.git
+[submodule "vendor/SDL"]
+	path = vendor/SDL
+	url = https://github.com/libsdl-org/SDL.git
