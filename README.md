@@ -21,8 +21,8 @@ add_executable(${PROJECT_NAME} main.cc)
 target_link_libraries(${PROJECT_NAME} PUBLIC sol_gui)
 include_directories(sol_gui/include)
 ```
-Then to build: 
-
+Then to build 
+**(The first time you build the code you must copy the `SDL3.dll` into executable's folder!)**:
 ```bash
 mkdir build
 cd build
