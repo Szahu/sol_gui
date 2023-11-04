@@ -1,7 +1,7 @@
 #pragma once
 #include "./../window.h"
-#include "SDL.h"
-#include "imgui.h"
+#include <SDL.h>
+#include <imgui.h>
 
 class WindowSdlImpl : public Window {
 public:
