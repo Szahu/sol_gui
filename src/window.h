@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 class Window {
 public:
@@ -6,6 +7,7 @@ public:
     struct WindowConfig {
         unsigned int width;
         unsigned int height;
+        std::string title;
     };
 
     virtual void Init(const WindowConfig& config) = 0;
